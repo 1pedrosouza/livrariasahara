@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+.container{
+    margin-left: 250px;
+    height: 550px;
+    width: 1700px;
+    background-color: #F9F3F3;
+    border-radius: 50px;
+}
+
+.img{
+    margin-top: 45px;
+    margin-left: 30px;
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 0.6rem black;
+
+
+}
+
+.titulo{
+    height: 400px;
+    width: 700px;
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-bottom: 60px;
+    float: right;
+    margin-right: 250px;
+
+ 
+
+}
+
+.bloco1{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 320px;
+    border-radius: 10px;
+}
+.bloco2{
+    width: 97px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+
+
+}
+.bloco3{
+    width: 105px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+
+
+}
+.bloco4{
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+
+
+}
+.bloco5{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+
+
+}
+.bloco6{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+
+
+}
+
+.bloco7{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 82px;
+    border-radius: 10px;
+    
+
+
+}
+
+.bloco8{
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+
+
+}
+
+.bloco9{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 157px;
+    border-radius: 10px;
+    
+
+}
+
+.bloco10{
+    width: 138px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 385px;
+    border-radius: 10px;
+    
+
+}
+
+
+.bloco11{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 192px;
+    border-radius: 10px;
+    
+
+}
+
+.bloco12{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 10px;
+    
+
+}
+
+.bloco13{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    float: right;
+    margin-right: 175px;
+    border-radius: 10px;
+    
+
+
+}
+.p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+
+
+#home{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#navbarDropdown{
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+header{
+    height: 400px;
+    width: 1300px;
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300px;
+    margin-top: 100px;
+}
+
+.mangas{
+    
+    width: 1350px;
+    height: 1120px;
+    background-color: #F9E7E3;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+}
+
+
+.h12{
+    margin-top: 20px;
+    margin-left: 800px;
+ 
+    
+}
+
+
+#slide{
+ border-radius: 20px;
+}
+
+#livrotitu{
+    color: bisque;
+    margin-left: 450px;
+    font-size: 30px;
+
+}
+
+
+
+
+.denji{
+
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+.nomemangas{
+    margin-right: 1px;
+    margin-bottom: 100px;
+
+}
+
+.imgmanga{
+    margin-left: 10px;
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+
+}
+
+.mangasaparecem{
+    border: solid 1px;
+    border-color: black;
+    margin-left: 250px;
+    height: 550px;
+    width: 1320px;
+    background-color: #F9F3F3;
+    border-radius: 50px;
+
+}
+
+.imagecompra{
+    margin-left: 250px;
+    height: 550px;
+    width: 1200px;
+    background-color: #F9F3F3;
+    border-radius: 50px;
+
+}
+
+.imagecompra2{
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 400px;
+    width: 300px;;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+#botaocomprar{
+    width: 200px;
+    height: 50px;
+}
