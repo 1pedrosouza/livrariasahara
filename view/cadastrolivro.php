@@ -4,7 +4,7 @@ include_once("header.php");
 
 <div class="container">
 
-<form class="row g-3" action="../controler/inserirLivro.php" method="Get">
+<form class="row g-3" action="../controler/inserirLivro.php" method="Post" enctype="multipart/form-data">
   <div class="col-md-12">
     <label for="inputlivro4" class="form-label">Nome do Livro</label>
     <input type="text" name="nomelivro" class="form-control" id="inputlivro4" required>
@@ -37,7 +37,7 @@ include_once("header.php");
   </div>
   <div class="col-4">
     <label for="inputcapa" class="form-label">Imagem Capa</label>
-    <input type="text" name="imglivro" class="form-control" id="capa" placeholder="../view/img/imagem.png" required>
+    <input type="file" name="imglivro" class="form-control" id="capa" placeholder="../view/img/imagem.png" required>
   </div>
   <div class="col-md-3">
     <label for="inputdistribuidora" class="form-label">Distribuidora</label>

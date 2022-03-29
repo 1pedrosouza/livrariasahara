@@ -1,5 +1,7 @@
 <?php
 include_once("../view/header.php");
+include_once("../model/conexao.php");
+include_once("../model/livroModel.php");
 ?>
 
 <div class="container">
@@ -38,21 +40,45 @@ include_once("../view/header.php");
 
 
 
-  
-<?php
-$imglivro = isset ($_GET["imglivro"])? $_GET["imglivro"]:"" ;
-  $ImagemLivro = visuImagem($conn, $imglivro);
 
-?>  
-<td>
+  <table class="table">
+    <thead>
+      <tr>
+      <th scope="col">Capa</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Valor</th>
+        <th scope="col">genero</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php
+    $nomelivro = "My Hero Academia";
 
-<td><?=$ImagemLivro["imglivro"] ?></td>
+      if($nomelivro){
 
-  </td>
+        $dado=visuNomeLivro($conn, $nomelivro);
+   
+        foreach($dado as $Livro):
+      ?>
+          <tr>
+          <td><img class="imagimanga" width="200" height="300" src="<?= $Livro["imglivro"] ?>"></td>
+            <td><?=$Livro["nomelivro"]?></td>
+            <td><?=$Livro["valorlivro"]?></td>
+            <td><?=$Livro["generolivro"]?></td>
+           
+          </tr>
+      <?php
+        endforeach;
+      }
+      ?>
+    </tbody>
 
- 
 
-    </div>
+
+
+
+
+
 <?php
 include_once("../view/footer.php");
 ?>

@@ -34,21 +34,21 @@ function visuLivroGenero($conn, $generolivro){
 };
 
 
-function visuImagem($conn, $imglivro){
-    $query = "select * from tblivro where imglivro like '%{$imglivro}%'";
+function visuNomeLivro($conn, $nomelivro){
+    $query = "select * from tblivro where nomelivro like '%{$nomelivro}%'";
     $resultado = mysqli_query($conn, $query);
-    $resultado = mysqli_fetch_array($resultado);
     return $resultado;
-}
+};
 
 
 
-function alterarLivro($conn,$codigolivro,$nomelivro,$generolivro,$qtdlivro,$datalancamentolivro,$distribuidoralivro){
+function alterarLivro($conn,$codigolivro,$nomelivro,$generolivro,$qtdlivro,$imglivro,$datalancamentolivro,$distribuidoralivro){
     var_dump(visuLivroNome($conn,$nomelivro));
     $query = "update tblivro set 
     nomelivro='{$nomelivro}', 
     generolivro='{$generolivro}', 
     qtdlivro='{$qtdlivro}',
+    imglivro='{$imglivro}'
     datalancamentolivro='{$datalancamentolivro}',
     distribuidoralivro='{$distribuidoralivro}' where idlivro = '{$codigolivro}'";
     $resultado = mysqli_query($conn, $query);

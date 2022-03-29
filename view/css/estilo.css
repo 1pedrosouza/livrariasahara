@@ -277,10 +277,9 @@ header{
 }
 
 .mangasaparecem{
-    border: solid 1px;
-    border-color: black;
+ 
     margin-left: 250px;
-    height: 550px;
+    height: 1000px;
     width: 1320px;
     background-color: #F9F3F3;
     border-radius: 50px;
@@ -309,3 +308,8 @@ header{
     width: 200px;
     height: 50px;
 }
+.imagimanga{
+    border-radius: 15px;
+}
+
+

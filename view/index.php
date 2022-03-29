@@ -13,6 +13,22 @@ include_once("../view/header.php")?>
     <div class="carousel-item">
       <img src="../view/img/chainsawmanslide.png" class="d-block w-100" id="slide" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="../view/img/bokunoheroslide.png" class="d-block w-100" id="slide" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../view/img/demonslayerslide.png" class="d-block w-100" id="slide" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../view/img/bakislide.png" class="d-block w-100" id="slide" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../view/img/jojoslide.png" class="d-block w-100" id="slide" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../view/img/onepunchmanslide.png" class="d-block w-100" id="slide" alt="...">
+    </div>
+
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
